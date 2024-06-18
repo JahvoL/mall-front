@@ -76,7 +76,7 @@ export default {
       user: {},
       tableData: [],
       pageNum: 1,
-      pageSize: 10,
+      pageSize: 20,
       entity: {},
       total: 0,
       dialogFormVisible: false,
