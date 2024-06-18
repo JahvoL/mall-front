@@ -92,7 +92,7 @@ export default {
     })
   },
   methods: {
-    abc() {},
+    def() {},
     fileSuccessUpload(res) {
       this.entity.file = "http://localhost:9999/files/" + res.data;
       this.fileList = [res.data]
