@@ -76,7 +76,7 @@ export default {
       user: {},
       tableData: [],
       pageNum: 1,
-      pageSize: 20,
+      pageSize: 10,
       entity: {},
       total: 0,
       dialogFormVisible: false,
@@ -92,6 +92,7 @@ export default {
     })
   },
   methods: {
+    abc() {},
     fileSuccessUpload(res) {
       this.entity.file = "http://localhost:9999/files/" + res.data;
       this.fileList = [res.data]
